@@ -1,0 +1,109 @@
+.navbar{
+    background-color: #1d1d1d;
+    width: 100%;
+    height: 70px;
+    display: flex;
+}
+
+.icon{
+    height: 30px;
+    position: absolute;
+    margin-left: 30px;
+}
+
+.icon-1{
+    height: 30px;
+    position: absolute;
+    margin-left: 80px;
+}
+
+.icon-2{
+    height: 30px;
+    position: absolute;
+    margin-left: 130px;
+}
+
+.unimoment{
+    color: white;
+    font-family: 'jaldi';
+    margin-top: 5px;
+    margin-left: 630px;
+    font-weight: bold;
+}
+
+.icon-back{
+    height: 30px;
+    margin-left: 1450px;
+}
+
+.link-back{
+    position: absolute;
+}
+
+.photo{
+    height: 200px;
+    width: 200px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.container-1{
+    margin-left: 120px;
+    margin-top: 50px;
+}
+
+.photo-container {
+    position: relative;
+    display: inline-block;
+}
+
+.detail-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    display: none;
+    cursor: pointer;
+}
+
+.photo-container:hover .detail-button {
+    display: block;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+    max-width: 80%;
+    max-height: 80%;
+    overflow: auto;
+}
+
+.popup-content {
+    color: white;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.photo-detail{
+    height: 220px;
+    width: 220px;
+    
+}
+
+.kotak-1{
+    display: flex;
+}

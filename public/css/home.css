@@ -1,0 +1,194 @@
+.gambar-orang{
+    height: 670px;
+    margin-left: 748px;
+    width: 770px;
+}
+
+
+
+.welcome{
+    position: absolute;
+    color: white;
+    font-family: 'jaldi';
+    font-size: 70px;
+    margin-top: 200px;
+    margin-left: 200px;
+}
+
+.custom-line {
+    position: absolute;
+    width: 548px; /* Ganti dengan panjang yang diinginkan */
+    height: 0;
+    border-top: 3px solid white; /* Ketebalan 3px dan warna putih */
+    bottom: 380px;
+    margin-left: 199px;
+}
+
+.username{
+    position: absolute;
+    color: white;
+    font-family: 'jaldi';
+    font-size: 70px;
+    margin-top: 300px;
+    margin-left: 200px;
+    font-weight: bold;
+}
+
+.momment{
+        color: white;
+    font-family: 'jaldi';
+    margin-top: 100px;
+    margin-left: 680px;
+    font-weight: bold;
+}
+
+.word{
+    position: absolute;
+    color: white;
+    font-family: 'poppins';
+    margin-top: 500px;
+    margin-left: 40px;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.custom-line2 {
+    width: 700px; /* Ganti dengan panjang yang diinginkan */
+    height: 0;
+    border-top: 3px solid white; /* Ketebalan 3px dan warna putih */
+    margin-left: 400px;
+    margin-bottom: 100px;
+}
+.kotak-gambar{
+    display: flex;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+
+.gambar-link{
+    height: 432px;
+    width: 300px;
+    border-radius: 20px;
+    margin-left: 150px;
+}
+
+.kata-family{
+    position: absolute;
+    color: white;
+    bottom: -650px;
+    font-family: 'jaldi';
+    margin-left: 200px;
+    font-weight: bold;  
+    font-size: 70px; 
+}
+
+.kata-me{
+    position: absolute;
+    color: white;
+    bottom: -650px;
+    font-family: 'jaldi';
+    margin-left: 260px;
+    font-weight: bold;  
+    font-size: 70px; 
+}
+
+.kata-friends{
+    position: absolute;
+    color: white;
+    bottom: -650px;
+    font-family: 'jaldi';
+    margin-left: 180px;
+    font-weight: bold;  
+    font-size: 70px; 
+}
+
+.logout{
+    position: absolute;
+    color: white;
+    margin-left: 1420px;
+    margin-top:-45px;
+}
+.navbar{
+    background-color: #1d1d1d;
+    width: 100%;
+    height: 70px;
+    display: flex;
+}
+
+.icon{
+    height: 30px;
+    position: absolute;
+    margin-left: 30px;
+}
+
+.icon-1{
+    height: 30px;
+    position: absolute;
+    margin-left: 80px;
+}
+
+.icon-2{
+    height: 30px;
+    position: absolute;
+    margin-left: 130px;
+}
+
+.unimoment{
+    color: white;
+    font-family: 'jaldi';
+    margin-top: 5px;
+    margin-left: 630px;
+    font-weight: bold;
+}
+
+.photo{
+    height: 250px;
+    width: 250px;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.photo-container {
+    position: relative;
+    display: inline-block;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+    max-width: 80%;
+    max-height: 80%;
+    overflow: auto;
+}
+
+.popup-content {
+    color: white;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.photo-detail{
+    height: 220px;
+    width: 220px;
+    
+}
+
+.kotak-1{
+    display: flex;
+}
